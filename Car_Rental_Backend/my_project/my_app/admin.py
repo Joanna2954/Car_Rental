@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Car, Rental  # ✅ import your models first
+from .models import Car, Rental 
 
 # Register your models here.
 admin.site.register(Car)
