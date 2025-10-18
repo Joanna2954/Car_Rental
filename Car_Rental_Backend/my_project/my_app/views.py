@@ -16,17 +16,6 @@ from .serializer import CarSerializer, RentalSerializer
 
 
 
-class ReturnCar(APIView):
-    def post(self, request, rental_id):
-        try:
-            rental = Rental.objects.get(id=rental_id)
-            car = rental.car
-            car.available = True  
-            car.save()
-           
-            return Response({"message": "Car returned successfully"},)
-        except Rental.DoesNotExist:
-            return Response({"error": "Rental not found"})
 
 
 #List all cars 
