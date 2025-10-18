@@ -1,14 +1,3 @@
-# from django.urls import path
-# from my_app.views import *
-
-# urlpatterns = [
-#     path('cars/', car_list.as_view(), name='car_list'),
-#     path('cars/<int:car_id>/', car_detail.as_view(), name='car_detail'),
-#     path('cars/<int:car_id>/rent/', RentCar.as_view(), name='rent_car'),
-#     path('rentals/<int:id>/',cancel_rental.as_view(), name='cancel_rental'),
-    
-# ]
-
 
 
 from django.urls import path
