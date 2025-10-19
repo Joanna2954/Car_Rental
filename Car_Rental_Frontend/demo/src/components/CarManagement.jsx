@@ -10,7 +10,6 @@ const CarManagement = () => {
   const [selectedCar, setSelectedCar] = useState(null);
   const [showAddEditModal, setShowAddEditModal] = useState(false);
   const [showRentModal, setShowRentModal] = useState(false);
-  const [showReturnModal, setShowReturnModal] = useState(false);
   const [isEdit, setIsEdit] = useState(false);
 
   const [carData, setCarData] = useState({
